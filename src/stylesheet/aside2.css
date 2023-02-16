@@ -1,0 +1,88 @@
+.asidecontainer2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 67px;
+  margin-left: 34px;
+  width: 100vw;
+}
+.profiledetail {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0fr;
+  grid-row-gap: 20px;
+}
+.questionfeild {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #6b6b6b;
+}
+.answerfeild {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #242831;
+}
+
+.appointment {
+  width: 522px;
+  margin-top: 48px;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+.appdetail {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #6b6b6b;
+  padding: 13px 0;
+  cursor: pointer;
+}
+.detailselected {
+  background-color: #fff;
+  padding: 8px 28px;
+  color: #4469ba;
+}
+.treatmentsection {
+  margin-top: 17px;
+  padding-bottom: 30px;
+  margin-right: 41px;
+  background: #f8f8f8;
+  border-radius: 10px;
+}
+.treatBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.root {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #242831;
+  margin: 22px 0 0 28px;
+}
+.showPrev {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #6b6b6b;
+  margin: 22px 28px 0 0;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.showPrev {
+  padding: 8px 10px;
+}
+.treatLine img {
+  width: 100%;
+  object-fit: cover;
+}

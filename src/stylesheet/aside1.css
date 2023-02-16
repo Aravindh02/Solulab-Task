@@ -1,0 +1,150 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.profilepic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 36px;
+}
+/* .name{
+    margin-top: 10px;
+    margin-left: 44px;
+} */
+.name p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 33.6px;
+  font-weight: 700;
+  color: #242831;
+}
+/* .email{
+    margin-left: 42px;
+    
+} */
+.email p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #6b6b6b;
+  line-height: 16.8px;
+  font-weight: 400;
+}
+
+.followers {
+  display: flex;
+  flex-direction: row;
+}
+.past h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #242831;
+}
+.past p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #6b6b6b;
+}
+.line {
+  margin-left: 36px;
+  margin-right: 25px;
+}
+.upcoming {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.upcoming h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.upcoming p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: center;
+  color: #6b6b6b;
+}
+
+.threesection {
+    margin-top: 40px;
+  margin-bottom: 20px;
+ height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 18px;
+}
+.sendbtn {
+    cursor: pointer;
+  padding: 8px 30px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  text-align: center;
+}
+.btn {
+  border: none;
+  font-family: source serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  background-color: #fff;
+  font-weight: bold;
+  color: #242831;
+}
+.filedoc {
+ margin-top: 50px;
+
+  display: flex;
+  justify-content: flex-start;
+}
+.filedoc p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #242831;
+  font-style: normal;
+}
+.filelist {
+    margin-top: 29px;
+}
+.filedata {
+  width: 226px;
+  height: 49px;
+  background-color: #f9f9f9;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.filename {
+  padding: 16px;
+  font-family: Source Serif 4;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #36393e;
+}
+.fileicon {
+  padding: 16px;
+}
